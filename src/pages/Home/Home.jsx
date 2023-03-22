@@ -25,7 +25,7 @@ const Home = () => {
     <section className="Home">
       {movies.map((movie) => (
         <div key={movie.id}>
-          <MovieCard />
+          <MovieCard movieProp={movie} />
         </div>
       ))}
     </section>
