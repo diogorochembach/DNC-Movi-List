@@ -15,6 +15,6 @@ export class MovieService {
   }
 
   static searchMovies(movie) {
-    return axios(withBaseUrl("search/movie") + `&quaery=${movie}`);
+    return axios(withBaseUrl("search/movie") + `&query=${movie}`);
   }
 }
